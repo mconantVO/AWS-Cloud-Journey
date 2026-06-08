@@ -6,36 +6,50 @@ Deploy the VoidOps Analytics website using Amazon S3 Static Website Hosting.
 
 ## AWS Services Used
 
-- Amazon S3
+* Amazon S3
+* Amazon CloudFront
+* AWS Certificate Manager (ACM)
+* AWS IAM
 
 ## Skills Demonstrated
 
-- Bucket creation
-- Static website hosting
-- Object uploads
-- Public access configuration
-- Bucket policies
-
-## Status
-
-Planned
+* S3 bucket creation
+* Static website hosting
+* IAM user management
+* CloudFront distribution creation
+* SSL/TLS certificate deployment
+* Custom domain integration
+* DNS validation
+* Cloudflare DNS management
+* HTTPS website delivery
 
 ## Architecture
 
-```text
 User Browser
-      |
-      v
-Amazon S3 Bucket
-      |
-      v
-VoidOps Analytics Website
-```
+↓
+Cloudflare DNS
+↓
+CloudFront Distribution
+↓
+AWS Certificate Manager (SSL)
+↓
+S3 Static Website Bucket
 
-## Lessons Learned
+## Project Status
 
-To be completed during deployment.
+✅ Completed
 
-## Screenshots
+### Final Deliverables
 
-To be added after deployment.
+* Website deployed to S3
+* CloudFront configured
+* SSL certificate issued
+* Custom domain connected
+* HTTPS enabled
+* www subdomain configured
+* Cloudflare DNS configured
+* Public website available at:
+
+https://voidops.cloud
+
+https://www.voidops.cloud
