@@ -61,6 +61,15 @@ Static Website Files
 - Custom Domain Integration
 - Cloud Architecture Documentation
 
+## Request Flow
+
+1. User enters https://voidops.cloud
+2. Cloudflare resolves the DNS request
+3. Traffic is routed to Amazon CloudFront
+4. CloudFront presents the ACM SSL certificate
+5. CloudFront retrieves content from Amazon S3
+6. Website content is delivered securely over HTTPS
+   
 ## Architecture Screenshots
 
 ### Amazon S3 Bucket
