@@ -58,19 +58,22 @@ Static Website Files
 - CloudFront Distribution Configuration
 - SSL/TLS Certificate Management
 - DNS Management
+- Custom Domain Integration
+- Cloud Architecture Documentation
 
 ## Architecture Screenshots
 
 ### Amazon S3 Bucket
-![S3 Bucket](screenshots/01-s3-bucket.png)
+![S3 Bucket](../Projects/Project-001-VoidOps-Analytics-S3-Hosting/screenshots/01-s3-bucket-created.png)
 
 ### CloudFront Distribution
-![CloudFront Distribution](screenshots/02-cloudfront-distribution.png)
+![CloudFront Distribution](../Projects/Project-001-VoidOps-Analytics-S3-Hosting/screenshots/02-cloudfront-distribution.png)
 
 ### ACM Certificate
-![ACM Certificate](screenshots/03-acm-certificate-issued.png)
+![ACM Certificate](../Projects/Project-001-VoidOps-Analytics-S3-Hosting/screenshots/03-acm-certificate-issued.png)
+
+### Cloudflare DNS Records
+![Cloudflare DNS](../Projects/Project-001-VoidOps-Analytics-S3-Hosting/screenshots/04-cloudflare-dns-records.png)
 
 ### Production Website
-![Production Website](screenshots/04-production-website.png)
-- Custom Domain Integration
-- Cloud Architecture Documentation
+![Production Website](../Projects/Project-001-VoidOps-Analytics-S3-Hosting/screenshots/05-live-website.png)
