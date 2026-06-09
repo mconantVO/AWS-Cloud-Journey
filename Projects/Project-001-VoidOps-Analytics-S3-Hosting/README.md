@@ -53,3 +53,32 @@ S3 Static Website Bucket
 https://voidops.cloud
 
 https://www.voidops.cloud
+
+---
+
+## Deployment Screenshots
+
+### Amazon S3 Bucket Creation
+![Amazon S3 Bucket](screenshots/01-s3-bucket-created.png)
+
+### CloudFront Distribution Configuration
+![CloudFront Distribution](screenshots/02-cloudfront-distribution.png)
+
+### ACM Certificate Issued
+![ACM Certificate](screenshots/03-acm-certificate-issued.png)
+
+### Cloudflare DNS Records
+![Cloudflare DNS](screenshots/04-cloudflare-dns-records.png)
+
+### Live Production Website
+![Live Website](screenshots/05-live-website.png)
+
+---
+
+## Lessons Learned
+
+* Learned how static websites are hosted using Amazon S3.
+* Configured CloudFront for secure content delivery.
+* Used AWS Certificate Manager to enable HTTPS.
+* Integrated a custom domain through Cloudflare DNS.
+* Built a complete serverless web hosting solution using AWS services.
