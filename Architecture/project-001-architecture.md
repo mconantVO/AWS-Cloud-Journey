@@ -58,5 +58,19 @@ Static Website Files
 - CloudFront Distribution Configuration
 - SSL/TLS Certificate Management
 - DNS Management
+
+## Architecture Screenshots
+
+### Amazon S3 Bucket
+![S3 Bucket](screenshots/01-s3-bucket.png)
+
+### CloudFront Distribution
+![CloudFront Distribution](screenshots/02-cloudfront-distribution.png)
+
+### ACM Certificate
+![ACM Certificate](screenshots/03-acm-certificate-issued.png)
+
+### Production Website
+![Production Website](screenshots/04-production-website.png)
 - Custom Domain Integration
 - Cloud Architecture Documentation
